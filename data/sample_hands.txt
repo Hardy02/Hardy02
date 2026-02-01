@@ -1,0 +1,217 @@
+PokerStars Hand #1000001:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:00:00 ET
+Table 'Alpha' 6-max Seat #1 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Bob: posts small blind $0.05
+Carol: posts big blind $0.10
+*** HOLE CARDS ***
+Hero: calls $0.10
+Dave: raises $0.40 to $0.50
+Hero: folds
+*** SUMMARY ***
+
+PokerStars Hand #1000002:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:01:00 ET
+Table 'Alpha' 6-max Seat #5 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Erin: posts small blind $0.05
+Alice: posts big blind $0.10
+*** HOLE CARDS ***
+Bob: folds
+Carol: folds
+Hero: raises $0.30 to $0.40
+Dave: folds
+Erin: folds
+Alice: folds
+*** SUMMARY ***
+
+PokerStars Hand #1000003:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:02:00 ET
+Table 'Alpha' 6-max Seat #4 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Dave: posts small blind $0.05
+Erin: posts big blind $0.10
+*** HOLE CARDS ***
+Alice: folds
+Bob: folds
+Carol: folds
+Hero: raises $0.30 to $0.40
+Dave: raises $0.90 to $1.20
+Erin: folds
+Hero: folds
+*** SUMMARY ***
+
+PokerStars Hand #1000004:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:03:00 ET
+Table 'Alpha' 6-max Seat #2 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Carol: posts small blind $0.05
+Hero: posts big blind $0.10
+*** HOLE CARDS ***
+Dave: folds
+Erin: folds
+Alice: raises $0.30 to $0.40
+Bob: folds
+Carol: folds
+Hero: folds
+*** SUMMARY ***
+
+PokerStars Hand #1000005:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:04:00 ET
+Table 'Alpha' 6-max Seat #3 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Hero: posts small blind $0.05
+Dave: posts big blind $0.10
+*** HOLE CARDS ***
+Erin: folds
+Alice: folds
+Bob: raises $0.30 to $0.40
+Carol: folds
+Hero: raises $0.90 to $1.20
+Dave: folds
+Bob: folds
+*** SUMMARY ***
+
+PokerStars Hand #1000006:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:05:00 ET
+Table 'Alpha' 6-max Seat #1 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Bob: posts small blind $0.05
+Carol: posts big blind $0.10
+*** HOLE CARDS ***
+Hero: raises $0.30 to $0.40
+Dave: folds
+Erin: folds
+Alice: folds
+Bob: folds
+Carol: calls $0.30
+*** FLOP *** [Ah 7d 2c]
+Hero: bets $0.40
+Carol: folds
+*** SUMMARY ***
+
+PokerStars Hand #1000007:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:06:00 ET
+Table 'Alpha' 6-max Seat #5 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Erin: posts small blind $0.05
+Alice: posts big blind $0.10
+*** HOLE CARDS ***
+Bob: folds
+Carol: folds
+Hero: raises $0.30 to $0.40
+Dave: folds
+Erin: folds
+Alice: calls $0.30
+*** FLOP *** [Kd 9h 4s]
+Hero: checks
+Alice: bets $0.40
+Hero: folds
+*** SUMMARY ***
+
+PokerStars Hand #1000008:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:07:00 ET
+Table 'Alpha' 6-max Seat #2 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Carol: posts small blind $0.05
+Hero: posts big blind $0.10
+*** HOLE CARDS ***
+Dave: folds
+Erin: raises $0.30 to $0.40
+Alice: folds
+Bob: folds
+Carol: folds
+Hero: calls $0.30
+*** FLOP *** [Qs 5c 2d]
+Erin: bets $0.40
+Hero: folds
+*** SUMMARY ***
+
+PokerStars Hand #1000009:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:08:00 ET
+Table 'Alpha' 6-max Seat #4 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Dave: posts small blind $0.05
+Erin: posts big blind $0.10
+*** HOLE CARDS ***
+Alice: folds
+Bob: folds
+Carol: folds
+Hero: raises $0.30 to $0.40
+Dave: folds
+Erin: calls $0.30
+*** FLOP *** [Ad 8c 3s]
+Hero: bets $0.40
+Erin: calls $0.40
+*** TURN *** [Ad 8c 3s] [2h]
+Hero: checks
+Erin: checks
+*** RIVER *** [Ad 8c 3s 2h] [Kh]
+Hero: bets $0.60
+Erin: calls $0.60
+*** SHOWDOWN ***
+Hero: shows [Ah Kd]
+Erin: shows [Qh Qd]
+Hero: collects $2.50
+*** SUMMARY ***
+
+PokerStars Hand #1000010:  Hold'em No Limit ($0.05/$0.10 USD) - 2023/01/01 12:09:00 ET
+Table 'Alpha' 6-max Seat #2 is the button
+Seat 1: Alice ($10 in chips)
+Seat 2: Bob ($10 in chips)
+Seat 3: Carol ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: Dave ($10 in chips)
+Seat 6: Erin ($10 in chips)
+Carol: posts small blind $0.05
+Hero: posts big blind $0.10
+*** HOLE CARDS ***
+Dave: folds
+Erin: folds
+Alice: folds
+Bob: folds
+Carol: raises $0.30 to $0.40
+Hero: calls $0.30
+*** FLOP *** [9s 6h 2c]
+Carol: bets $0.40
+Hero: calls $0.40
+*** TURN *** [9s 6h 2c] [Jh]
+Carol: bets $0.80
+Hero: folds
+*** SUMMARY ***
