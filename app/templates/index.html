@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini PokerTracker</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mini PokerTracker</h1>
+    <p class="subtitle">Hero-only HUD by default. Villain stats require stable IDs and permission.</p>
+    <nav>
+      <a href="/definitions">Stat definitions</a>
+    </nav>
+  </header>
+
+  <section class="panel">
+    <h2>Import hand histories</h2>
+    <form class="upload" action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".txt" required />
+      <button type="submit">Upload</button>
+    </form>
+    <form class="reset" action="/reset" method="post">
+      <button type="submit" class="secondary">Clear database</button>
+    </form>
+  </section>
+
+  <section class="panel">
+    <h2>HUD stats</h2>
+    <form id="stats-form" class="filters">
+      <label>
+        Hero name
+        <input type="text" name="hero_name" placeholder="Hero" required />
+      </label>
+      <label>
+        Player
+        <select name="player" required>
+          <option value="">Select player</option>
+          {% for player in players %}
+          <option value="{{ player }}">{{ player }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        Enable villain stats
+        <input type="checkbox" name="allow_villain" />
+        <span class="hint">Only if IDs are stable and permitted.</span>
+      </label>
+      <label>
+        Start date
+        <input type="date" name="start_date" />
+      </label>
+      <label>
+        End date
+        <input type="date" name="end_date" />
+      </label>
+      <label>
+        Game type
+        <input type="text" name="game_type" placeholder="No Limit Hold'em" />
+      </label>
+      <label>
+        Stakes
+        <input type="text" name="stakes" placeholder="$0.05/$0.10" />
+      </label>
+      <label>
+        Table size
+        <input type="number" name="table_size" min="2" max="9" />
+      </label>
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div class="warning" id="warning"></div>
+    <div class="hud" id="hud">
+      <div class="hud-item"><span>Hands</span><strong id="hands">-</strong></div>
+      <div class="hud-item"><span>VPIP</span><strong id="vpip">-</strong></div>
+      <div class="hud-item"><span>PFR</span><strong id="pfr">-</strong></div>
+      <div class="hud-item"><span>3B</span><strong id="three_bet">-</strong></div>
+      <div class="hud-item"><span>Fv3B</span><strong id="fold_vs_three_bet">-</strong></div>
+      <div class="hud-item"><span>ST</span><strong id="steal">-</strong></div>
+      <div class="hud-item"><span>FvST</span><strong id="fold_vs_steal">-</strong></div>
+      <div class="hud-item"><span>CBET</span><strong id="cbet">-</strong></div>
+      <div class="hud-item"><span>FvCBET</span><strong id="fold_vs_cbet">-</strong></div>
+      <div class="hud-item"><span>WTSD</span><strong id="wtsd">-</strong></div>
+      <div class="hud-item"><span>WSD</span><strong id="wsd">-</strong></div>
+    </div>
+
+    <div class="export" id="export"></div>
+  </section>
+
+  <script>
+    const form = document.getElementById('stats-form');
+    const warning = document.getElementById('warning');
+    const exportDiv = document.getElementById('export');
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const formData = new FormData(form);
+      const params = new URLSearchParams();
+      for (const [key, value] of formData.entries()) {
+        if (value) {
+          params.append(key, value);
+        }
+      }
+      if (formData.get('allow_villain')) {
+        params.set('allow_villain', 'true');
+      }
+      const response = await fetch(`/stats?${params.toString()}`);
+      const payload = await response.json();
+      if (!response.ok) {
+        warning.textContent = payload.error || 'Unable to calculate stats.';
+        return;
+      }
+      warning.textContent = payload.warning || '';
+      const stats = payload.stats;
+      for (const key of Object.keys(stats)) {
+        const element = document.getElementById(key);
+        if (element) {
+          element.textContent = stats[key];
+        }
+      }
+      const player = formData.get('player');
+      const query = params.toString();
+      exportDiv.innerHTML = `Export: <a href="/export?format=csv&${query}">CSV</a> | <a href="/export?format=json&${query}">JSON</a>`;
+    });
+  </script>
+</body>
+</html>
